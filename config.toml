@@ -1,6 +1,7 @@
 baseURL = "https://v2.docs.influxdata.com/"
-languageCode = "en-us"
 title = "InfluxDB Documentation"
+languageCode = "en-us"
+DefaultContentLanguage = "zh"
 
 # Git history information for lastMod-type functionality
 enableGitInfo = true
@@ -11,6 +12,14 @@ pygmentsUseClasses = true
 
 # Preserve case in article tags
 preserveTaxonomyNames = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 2
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
 
 # Markdown rendering options
 [blackfriday]
