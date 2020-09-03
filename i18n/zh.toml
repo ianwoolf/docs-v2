@@ -1,0 +1,50 @@
+[layout-index-title]
+other = "欢迎使用 InfluxDB v2.x 文档"
+
+[layout-index-content]
+other = "在线上环境你不会看到这个页面，它会自动跳转到最新的版本文档。在右上角选择你想查看的文档或者直接点击查看"
+
+[layout-nav-title]
+other = "InfluxDB 文档"
+
+[layout-nav-selector]
+other = "选择版本"
+
+[layout-versionlanding-getstarted]
+other = "开始使用 InfluxDB"
+
+[layout-versionlanding-start-cloud]
+other = "使用 InfluxDB Cloud"
+
+[layout-versionlanding-start-oss]
+other = "使用 InfluxDB OSS"
+
+[layout-versionlanding-writedata-title]
+other = "数据写入"
+
+[layout-versionlanding-querydata-title]
+other = "数据查询"
+
+[layout-versionlanding-processdata-title]
+other = "数据处理"
+
+[layout-versionlanding-vusualdata-title]
+other = "数据可视化"
+
+[layout-versionlanding-monitoralert-title]
+other = "监控和报警"
+
+[layout-versionlanding-writedata-content]
+other = "InfluxDB 支持多种方式写入数据。"
+
+[layout-versionlanding-querydata-content]
+other = "使用 Flux 查询处理你的数据。"
+
+[layout-versionlanding-processdata-content]
+other = "使用 InfluxDB tasks 来处理和归档你的数据。"
+
+[layout-versionlanding-vusualdata-content]
+other = "创建丰富的 dashboards 来观测自己的数据。"
+
+[layout-versionlanding-monitoralert-content]
+other = "使用 InfluxDB 监控你的指标，并及时发出告警。"

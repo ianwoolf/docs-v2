@@ -2,13 +2,13 @@
   <div class="topnav--left">
     <a class="influx-home" href="https://www.influxdata.com" title="InfluxData"><span class="icon-influx-logo"></span><span class="icon-influx-logotype"></span></a>
     <span class="divider"></span>
-    <a class="docs-home" href="/{{ $.Site.Data.versions.stable_version }}">InfluxDB Docs</a>
+	<a class="docs-home" href="/{{ $.Site.Data.versions.stable_version }}">{{ i18n "layout-nav-title" }}</a>
   </div>
   <div class="topnav--right">
     <div class="version-selector">
       {{- $currentVersion := (index (findRE "[^/]+.*?" .RelPermalink) 0) -}}
       {{ if not ( in $currentVersion "v2") }}
-        <p class="selected">Select Version</p>
+	  <p class="selected">{{ i18n "layout-nav-selector" }}</p>
       {{ else }}
         <p class="selected">{{ $currentVersion }}</p>
       {{ end }}

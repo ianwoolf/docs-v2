@@ -1,0 +1,50 @@
+[layout-index-title]
+other = "Welcome to the InfluxDB v2.x documentation"
+
+[layout-index-content]
+other = "This page is never actually shown on the live docs since visiting the docs domain will redirect to the latest stable version. Select your desired version from the dropdown above or go straight to the"
+
+[layout-nav-title]
+other = "InfluxDB Docs"
+
+[layout-nav-selector]
+other = "Select Version"
+
+[layout-versionlanding-getstarted]
+other = "Get started with InfluxDB"
+
+[layout-versionlanding-start-cloud]
+other = "Start with InfluxDB Cloud"
+
+[layout-versionlanding-start-oss]
+other = "Start with InfluxDB OSS"
+
+[layout-versionlanding-writedata-title]
+other = "Write Data"
+
+[layout-versionlanding-querydata-title]
+other = "Query Data"
+
+[layout-versionlanding-processdata-title]
+other = "Process Data"
+
+[layout-versionlanding-vusualdata-title]
+other = "Visualize Data"
+
+[layout-versionlanding-monitoralert-title]
+other = "Monitor & Alert"
+
+[layout-versionlanding-writedata-content]
+other = "Write data to InfluxDB using a number of different options."
+
+[layout-versionlanding-querydata-content]
+other = "Use Flux to query and transform your data."
+
+[layout-versionlanding-processdata-content]
+other = "Use InfluxDB tasks to process and downsample data."
+
+[layout-versionlanding-vusualdata-content]
+other = "Build powerful dashboards to visualize your data."
+
+[layout-versionlanding-monitoralert-content]
+other = "Monitor metrics and send alerts with InfluxDB."
