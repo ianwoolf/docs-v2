@@ -1,44 +1,42 @@
 ---
-title: Get started with InfluxDB
-description: Download, install, and setup InfluxDB, creating a default organization, user, and bucket.
+title: 开始使用 InfluxDB
+description: 下载, 安装, 配置 InfluxDB, 并创建一个默认的 organization, user, 和 bucket。
 menu:
   v2_0:
-    name: Get started
+    name: 快速上手
 weight: 1
-v2.0/tags: [get-started, install]
+v2.0/tags: [开始使用, 安装]
 aliases:
   - /v2.0/cloud/get-started
 ---
 
-The InfluxDB 2.0 time series platform is purpose-built to collect, store,
-process and visualize metrics and events.
-Start with **InfluxDB Cloud 2.0**, a fully managed and hosted version of InfluxDB 2.0,
-or **InfluxDB OSS 2.0 _(beta)_**, the open source
-version of InfluxDB 2.0.
+InfluxDB 2.0 时序平台旨在采集、存储、处理和可视化监控指标和事件。
+开始使用 **InfluxDB Cloud 2.0** 吧，它是一个完全托管的 InfluxDB 2.0 服务，
+或者你可以选择使用 **InfluxDB OSS 2.0 _(beta)_**，它是 InfluxDB 2.0 的社区开源版本。
 
 <div class="get-started-btns">
   <a class="btn" href="#start-with-influxdb-cloud-2-0">开始使用 InfluxDB Cloud</a>
   <a class="btn" href="#start-with-influxdb-oss">开始使用 InfluxDB OSS <span class="oss"></span></a>
 </div>
 
-_See [Differences between InfluxDB Cloud and InfluxDB OSS](#differences-between-influxdb-cloud-and-influxdb-oss)._
+_查看 [InfluxDB Cloud 和 InfluxDB OSS 有哪些区别](#differences-between-influxdb-cloud-and-influxdb-oss)._
 
 ---
 
-## Start with InfluxDB Cloud 2.0
+## 开始使用 InfluxDB Cloud 2.0
 
-### Start for free
+### 免费开始使用
 
-Start using {{< cloud-name >}} at no cost with the [Free Plan](/v2.0/account-management/pricing-plans/#free-plan).
-Use it as much and as long as you like within the plan's rate-limits.
-Limits are designed to let you monitor 5-10 sensors, stacks or servers comfortably.
+选择 [免费套餐](/v2.0/account-management/pricing-plans/#free-plan) 使用 {{< cloud-name >}} 可以不花费任何费用。
+在套餐限制规格内，你可以根据自己的需求随意使用。
+免费套餐的规格可以让你监控到 5-10 个传感器或者服务器。
 
-### Sign up
+### 注册
 
-1. Choose one of the following:
-    - **Subscribe through InfluxData**  
-      To subscribe to an InfluxDB Cloud 2.0 **Free Plan** through InfluxData,
-      go to [InfluxDB Cloud 2.0]({{< cloud-link >}}).
+1. 选择下面合适自己的方式:
+    - **通过 InfluxData 官网进行订阅**
+      通过 InfuxData 官网订阅一个 InfluxDB Cloud 2.0 **免费套餐**，
+      去往 [InfluxDB Cloud 2.0]({{< cloud-link >}}).
 
         - To use social sign-on, click **Continue with Google**. Note that Google social sign-on does not support email aliases.
 
