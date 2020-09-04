@@ -15,7 +15,7 @@ InfluxDB 2.0 时序平台旨在采集、存储、处理和可视化监控指标�
 或者你可以选择使用 **InfluxDB OSS 2.0 _(beta)_**，它是 InfluxDB 2.0 的社区开源版本。
 
 <div class="get-started-btns">
-  <a class="btn" href="#start-with-influxdb-cloud-2-0">开始使用 InfluxDB Cloud</a>
+  <a class="btn" href="#开始使用-InfluxDB-Cloud-2-0">开始使用 InfluxDB Cloud</a>
   <a class="btn" href="#start-with-influxdb-oss">开始使用 InfluxDB OSS <span class="oss"></span></a>
 </div>
 

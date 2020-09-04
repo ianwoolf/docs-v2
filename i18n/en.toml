@@ -16,8 +16,14 @@ other = "Get started with InfluxDB"
 [layout-versionlanding-start-cloud]
 other = "Start with InfluxDB Cloud"
 
+[layout-versionlanding-start-cloud-link]
+other = "get-started/#start-with-influxdb-cloud-2-0"
+
 [layout-versionlanding-start-oss]
 other = "Start with InfluxDB OSS"
+
+[layout-versionlanding-start-oss-link]
+other = "get-started/#start-with-influxdb-oss"
 
 [layout-versionlanding-writedata-title]
 other = "Write Data"

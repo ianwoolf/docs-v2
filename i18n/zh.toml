@@ -16,8 +16,14 @@ other = "开始使用 InfluxDB"
 [layout-versionlanding-start-cloud]
 other = "使用 InfluxDB Cloud"
 
+[layout-versionlanding-start-cloud-link]
+other = "get-started/#开始使用-InfluxDB-Cloud-2-0"
+
 [layout-versionlanding-start-oss]
 other = "使用 InfluxDB OSS"
+
+[layout-versionlanding-start-oss-link]
+other = "get-started/#start-with-influxdb-oss"
 
 [layout-versionlanding-writedata-title]
 other = "数据写入"
