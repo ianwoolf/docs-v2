@@ -38,30 +38,30 @@ _查看 [InfluxDB Cloud 和 InfluxDB OSS 有哪些区别](#differences-between-i
       通过 InfuxData 官网订阅一个 InfluxDB Cloud 2.0 **免费套餐**，
       去往 [InfluxDB Cloud 2.0]({{< cloud-link >}}).
 
-        - To use social sign-on, click **Continue with Google**. Note that Google social sign-on does not support email aliases.
+        - 如果使用第三方登录，可以点击 **Google 登陆**。需要注意的是 Google 的第三方登陆是不支持邮箱别名的。
 
-        - Sign up with email by entering your name, email address, and password, then click **Create Account**.
+		- 输入自己的名称，email 地址和密码，然后点击 **创建账户** 进行注册。
 
-      If you originally signed up with email but want to enable social sign-on, you can do so by logging in through Google as long as you use the same email address.  
+	  如果最初你使用了自己的邮箱进行了注册但是现在向开启第三方登陆，你可以使用同样的邮箱进行 Google 登陆。
 
-    - **Subscribe through a cloud provider**  
-      To subscribe to an InfluxDB Cloud **Usage-Based** plan and pay through your
-      **Amazon Web Services (AWS)** or **Google Cloud Platform (GCP)** account:
+	- **通过公有云进行订阅**
+	  根据自己的需求通过公有云进行 InfluxDB Cloud 服务订阅和付费，现在你可以选择使用
+      **Amazon Web Services (AWS)** 或者 **Google Cloud Platform (GCP)** 账户:
 
         - **AWS**  
-          Sign in to AWS, navigate to the [InfluxDB Cloud product on AWS Marketplace](https://aws.amazon.com/marketplace/pp/B08234JZPS),
-          and follow the prompts to subscribe. After you click **Set Up Your Account**,
-          enter your credentials, and then click **Start Now**.
-          All usage charges will be paid through the subscribed AWS account.
+          登陆进你的 AWS, 导航到 [InfluxDB Cloud product on AWS Marketplace](https://aws.amazon.com/marketplace/pp/B08234JZPS),
+          然后根据提示进行订阅. 当你点击了 **Set Up Your Account**,
+          输入你的认证信息, 然后点击 **Start Now**.
+		  服务产生的所有费用都将通过你订阅服务的 AWS 账户进行支付。
 
         - **GCP**  
-          Sign in to GCP, navigate to the [InfluxDB Cloud product on GCP Marketplace](https://console.cloud.google.com/marketplace/details/influxdata-public/cloud2-gcp-marketplace-prod),
-          and follow the prompts to subscribe. After you click **Set Up Your Account**,
-          enter your credentials, and then click **Start Now**.
-          All usage charges will be paid through the subscribed GCP account.
+          登陆进你的 GCP, 导航到 [InfluxDB Cloud product on GCP Marketplace](https://console.cloud.google.com/marketplace/details/influxdata-public/cloud2-gcp-marketplace-prod),
+          然后根据提示进行订阅. 当你点击了 **Set Up Your Account**,
+          输入你的认证信息, 然后点击 **Start Now**.
+		  服务产生的所有费用都将通过你订阅服务的 GCP 账户进行支付。
 
         {{%note%}}
-Currently, we do **not support** using an existing InfluxDB Cloud 2.0 account to sign up for an InfluxDB Cloud 2.0 plan through AWS or GCP Marketplaces.
+目前, 我们 **不支持** 使用已经存在的 InfluxDB Cloud 2.0 账户通过 AWS 或者 GCP Marketplaces 进行登陆.
         {{%/note%}}
 
 2. If you signed up with your email address, InfluxDB Cloud requires email verification to complete the sign up process.
